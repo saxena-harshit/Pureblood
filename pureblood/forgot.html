@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap 4 Website Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <style>
+   .form-control{
+        width:350px;
+
+   }
+
+   .add{
+       margin:5px;
+   }
+  </style>
+</head>
+<body style="background-color:smokewhite">
+
+<div class="row">
+<div class="col-sm-3" >
+</div>
+
+
+
+
+
+<div class="col-sm-6" >
+<div class="form" style='padding-left:150px;padding-top:100px;' >
+ 
+<form action="forgot2.php" method="post"  enctype="multipart/form-data" style="box-shadow:5px 5px 10px gray; padding-left:20px; padding-bottom :20px;  width:400px;border-radius:30px;">
+<img src="b2.png" style="margin-left: 100px; margin-bottom: 10px; ">
+
+          
+     
+                
+<h4> Enter Email</h4>
+<input class="form-control" type="text" name="email" placeholder="Enter your email"  required>
+
+<h4><label for="sel1" >Select security question:</label></h4>
+                <select class="form-control"  style="width: 150px;" name="question" id="sel1"  required>
+                   <option>Pet name</option>
+                   
+                   <option>Favourite player</option>
+                   <option>Favourite actor</option>
+                   <option>Favourite book</option>
+                   <option>Favourite movie</option>
+  </select>
+
+                
+  <h4> Enter answer</h4>
+  <input class="form-control" type="text" name="ans" placeholder="Enter your email"  required>
+  
+
+
+
+
+<div class="submit" style="margin:10px;">
+
+<input class="form-control btn btn-danger" type="submit" value="Continue" name='sub'>
+</div>
+</form>
+
+<br>
+
+
+<div class="col-sm-3" >
+</div>
+
+</div>
+
+</body>
+</html>
+
